@@ -1,5 +1,7 @@
 # PROJECT INFORMATION
 
+[Link](https://inquisitive-mousse-cb397a.netlify.app/)
+
 # TODO
 
 - animate the setup/punchline divs to slide in from the left and jiggle a little bit when they stop

@@ -1,6 +1,6 @@
 .joke {
-    outline: 2px solid black;
-    box-shadow: 8px 8px #FFF0AD;
+    outline: 2px solid rgb(134, 134, 134);;
+    box-shadow: 8px 8px #FFCC71;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -15,8 +15,7 @@
 
 @media only screen and (min-width: 768px) {
     .joke {
-        outline: 1px solid black;
-        box-shadow: 10px 10px #FFF0AD;
+        box-shadow: 10px 10px #FFCC71;
         height: auto;
     }
 }

@@ -3,8 +3,8 @@
 }
 
 .card {
-    outline: 2px solid black;
-    box-shadow: 8px 8px #85E4FF;
+    outline: 2px solid rgb(134, 134, 134);;
+    box-shadow: 8px 8px #17D7C8;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -18,7 +18,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid rgb(134, 134, 134);
     width: 100%;
 }
 
@@ -26,8 +26,8 @@ h1 {
 @media only screen and (min-width: 768px) {
 
     .card {
-        outline: 1px solid black;
-        box-shadow: 10px 10px #85E4FF;
+        outline: 2px solid rgb(134, 134, 134);;
+        box-shadow: 10px 10px #17D7C8;
         width: 40%;
         height: 60%;
         padding: 2em;

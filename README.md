@@ -13,9 +13,9 @@
 
 
 ## Colors
-blue - #85E4FF
-yellow - #FFF0AD
-orange - #FFCA85
+blue - #17D7C8
+yellow - #FFCC71
+red - #FFB4B9
 
 # Getting Started with Create React App
 

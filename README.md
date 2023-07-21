@@ -1,3 +1,20 @@
+# PROJECT INFORMATION
+
+# TODO
+
+- animate the setup/punchline divs to slide in from the left and jiggle a little bit when they stop
+- Dad Joke API functionality
+    - connect to API and have successful request console.log message
+    - figure out if this api call needs to be in App.js or a different component
+
+
+
+
+## Colors
+blue - #85E4FF
+yellow - #FFF0AD
+orange - #FFCA85
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

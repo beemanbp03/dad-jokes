@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    outline: 2px solid black;
+    box-shadow: 8px 8px #85E4FF;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    width: 90%;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .card {
+        outline: 1px solid black;
+        box-shadow: 10px 10px #85E4FF;
+        width: 40%;
+        height: 60%;
+        padding: 2em;
+    }
+
+}

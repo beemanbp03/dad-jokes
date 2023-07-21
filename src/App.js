@@ -1,23 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import Card from './components/UI/Card';
+
+const jokes = [
+  {
+    id: 1,
+    setup: "Why was Cinderella so bad at soccer?",
+    punchline: "She kept running away from the ball."
+  },
+  {
+    id: 2,
+    setup: 'What do you call a well-balenced horse?',
+    punchline: 'Stable.'
+  },
+  {
+    id: 3,
+    setup: 'Why do cows wear bells?',
+    punchline: 'Because their horns dont work.'
+  },
+];
+
 
 function App() {
+  const classes = 'app ';
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+      <Card jokes={jokes}>
+      </Card>
     </div>
   );
 }

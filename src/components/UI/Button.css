@@ -1,6 +1,7 @@
 button {
-    border: 2px solid rgb(134, 134, 134);;
+    border: 2px solid rgb(134, 134, 134);
     background-color: white;
+    color: black;
     width: 100%;
     line-height: 18px;
     font-size: 24px;

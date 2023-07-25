@@ -45,9 +45,8 @@ const Card = (props) => {
     return (
         <div className={classes}>
             <h1>Dad Jokes</h1>
-            <a href="https://rapidapi.com/KegenGuyll/api/dad-jokes/details">dadjokes.io</a>
-            <Button onClick={newJokeHandler} />
             <Joke joke={joke} />
+            <Button onClick={newJokeHandler} />
         </div>
     )
 }

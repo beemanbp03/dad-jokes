@@ -9,8 +9,6 @@ const Card = (props) => {
     const [isClicked, setIsClicked] = useState(false);
     const [joke, setJoke] = useState({id: 0, setup: "Bad at Golf?", punchline: "Join the club."});
 
-    console.log('isClicked: ' + isClicked);
-
     const classes = 'card ' + props.className;
 
     //API request for random dad joke using fetch(). source: https://rapidapi.com/KegenGuyll/api/dad-jokes
@@ -27,7 +25,6 @@ const Card = (props) => {
         try {
             const response = await fetch(url, options);
             const result = await response.json();
-            console.log(result.body[0].setup);
             setJoke({id:result.body[0]._id, setup: result.body[0].setup, punchline: result.body[0].punchline})
         } catch (error) {
             console.error(error);

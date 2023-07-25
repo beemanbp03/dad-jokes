@@ -17,5 +17,7 @@
     .joke {
         box-shadow: 10px 10px #FFCC71;
         height: auto;
+        line-height: 18px;
+        font-size: 18px;
     }
 }
